@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    /* border: 2px solid red; */
+
+}
+h3 {
+    width: 149px;
+    height: 36px;
+    margin-left: 85px;
+    margin-top: 68px;
+    margin-right: 106px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+    /* //line-height: 36px; */
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    color: #EEEEEE;
+    /* border: 2px solid #9AABD8; */
+
+}
+.home-score {
+    width: 170px;
+    height: 120px;
+    margin-left: 82px;
+    margin-top: 21px;
+    background: #080001;
+    border-radius: 5px;
+    margin-bottom: 28px;
+    color: #F94F6D;
+    text-align: center;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    padding-top: 10px;
+    border: 2px solid #F94F6D;
+
+
+}
+.home-buttons, .guest-buttons {
+    margin-left: 82px;
+}
+
+.home-button1,.home-button2,.home-button3 {
+    border: 2px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #1B244A;
+    color: #9AABD8;
+
+}
+.home-button2,.home-button3 {
+    margin-left: 8px;
+}
+.newGame-btn {
+    border: 2px solid #9AABD8;
+    /* width: 45px; */
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #D1FAE5;
+    color: #0C4A6E;
+    margin-top: 180px;
+}
+
+.save-btn {
+    display: block;
+    margin: 0 auto 0 auto;
+    border: 2px solid #9AABD8;
+    height: 60px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background: #E0F2FE;
+    color: #111827;
+    margin-top: 60px;
+}
